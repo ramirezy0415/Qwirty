@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4444bb;
+  color: white;
+  padding: 10px;
+}
+.container a {
+  padding: 5px;
+  border-right: 2px solid black;
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+header h1 {
+  color: #4444bb;
+}
+
+#search-form input {
+  flex: 1;
+  width: 600px;
+}
+
+header a {
+  background-color: rgb(212, 8, 8);
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+main .side-bar {
+  margin-left: 30px;
+  padding: 5px;
+  list-style: none;
+}
+
+.side-bar li {
+  background-color: #4444bb;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+.side-bar li a {
+  color: white;
+  text-decoration: none;
+}
+
+main .products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 250px;
+  margin: 10px;
+}
+
+.product h2 {
+  background-color: #4444bb;
+  color: white;
+  padding: 10px;
+}
+
+.product-price {
+  background-color: #4444bb;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4444bb;
+  color: white;
+  padding: 25px;
+}
+
+footer h1 {
+  border-bottom: 2px white solid;
+}
+footer li {
+  list-style: none;
+  margin: 5px;
+}
+footer a {
+  color: unset;
+  text-decoration: none;
+}
