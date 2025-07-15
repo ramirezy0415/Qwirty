@@ -3,3 +3,89 @@
   padding: 0;
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4444bb;
+  color: white;
+  padding: 10px;
+}
+
+.container a {
+  padding: 5px;
+  border-right: 2px solid black;
+  text-decoration: none;
+  color: unset;
+}
+
+.container menu {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.webpage-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+.webpage-header h1 {
+  color: #4444bb;
+}
+
+.webpage-header a {
+  background-color: rgb(212, 8, 8);
+  padding: 10px;
+  color: white;
+}
+
+#search-form {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+
+#search-input {
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  .webpage-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .webpage-header a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .collapsible {
+    padding: 18px;
+    width: 10%;
+    text-align: left;
+    font-size: 5px;
+  }
+
+  .collapse-menu-content {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .collapsible {
+    display: none;
+  }
+}
